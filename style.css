@@ -7,10 +7,9 @@
 figure{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 figure img{
-    width: 200px;
+    width: 300px;
 }
 /* navbar */
 nav{
@@ -18,4 +17,31 @@ nav{
     justify-content: space-evenly;
     position: sticky;
     top: 0;
+}
+nav a{
+    color: #323275;
+    text-decoration: none;
+}
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 50px;
+}
+.home div{
+    padding-top: 140px;
+}
+.home img{
+    margin-left: 20px;
+    width: 500px;
+    margin-top: 20px;
+}
+.home h2{
+    font-size: 40px;
+    font-weight: 80px;
+}
+.home input{
+    width: 250;
+    height:50px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
