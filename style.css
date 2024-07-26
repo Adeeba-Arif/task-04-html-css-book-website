@@ -17,11 +17,11 @@ nav{
     justify-content: space-evenly;
     position: sticky;
     top: 0;
-    background-color: #d8c5c536;
+    background-color:#504848de;
     padding-bottom: 20px;
 }
 nav a{
-    color: #323275;
+    color: wheat;
     text-decoration: none;
 }
 .home{
@@ -39,7 +39,7 @@ nav a{
 }
 .home h2{
     font-size: 40px;
-    font-weight: 80px;
+    font-weight: 800;
 }
 .home input{
     width: 250;
@@ -148,11 +148,100 @@ section p{
     padding-top: 10px;
     margin-bottom: 10px;
 }
+/* connect */
+.connect{
+    margin-top: 50px;
+    background-color: #f0f8ff;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.connect h3{
+    padding-bottom: 20px;
+    background-color: #f0f8ff;
+}
+.connect img{
+    width: 40px;
+    background-color: #f0f8ff;
+}
+footer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer p{
+    font-size: medium;
+}
+footer :first-child{
+  font-size: large;
+}
+footer div a{
+    color: #000000;
+    display: block;
+    font-size: medium;
+}
+footer img{
+    width: 30%;
+}
+/* copyright */
+.copyright{
+    margin-top: 70px;
+    text-align: center;
+}
+.copyright p{
+    color: #828b8b;
+    font-size: medium;
+}
+button :hover{
+    color: #000000;
+    background-color: #f0f8ff;
+}
+button :active{
+    color: #f0f8ff;
+    background-color: #000000;
+}
+nav a:hover{
+    background-color: #f0f8ff;
+}
+/* for PC */
+@media(max-width: 900px){
+    .home img{
+        margin-left: 20px;
+        width: 350px;
+        margin-top: 20px;
+    }
+    .home h2{
+        font-size: 20px;
+        font-weight: 700px;
+    }
+    .books-group{
+        display: grid;
+        justify-content: space-evenly;
+    }
+    .books{
+        margin-bottom: 10px;
+    }
+    .books button{
+        width: 15vw;
+        height: 7vh;
+    }
+    .card-group{
+        display: grid;
+    }
+    footer p{
+     font-size: 1vw;
+    }
+    footer div p{
+        font-size: 1vw;
+    }
+
+}
 
 /* for mobile apps */
 @media(max-width : 420px){
     figure{
-        margin-top: 15px;
+        margin-top: -15px;
     }
     figure img{
       width: 100px;
@@ -168,6 +257,11 @@ section p{
       width: 200px;
       margin-left: 10px;
       margin-top: 10px;
+    }
+    .home img{
+        width: 180px;
+        margin-left: -80px;
+        margin-top: 10px;
     }
     .home h2{
         font-size: 10px;
@@ -217,10 +311,35 @@ section p{
     margin-top: 40px;
     width: 320px;
     height: 470px;
-    margin-left: 0px;
+    margin-left: -2px;
    }
-   
-
+   .card button{
+    background-color:#00ffff;
+    color: #b6d8da;
+    width: 20vw;
+    height: 5vh;
+    display: block;
+    margin: 0 auto;
+    border: none;
+   }
+/* connect */
+.connect{
+    background-color: #f0f8ff;
+}
+.connect h3{
+    font-size: medium;
+    margin-top: -20px;
+}
+.connect img{
+    width: 30px;
+}
+/* footer */
+footer p{
+font-size:2vw;
+}
+footer div :first-child{
+    font-size: 2vw;
+}
 
 
 
