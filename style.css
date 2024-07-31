@@ -17,12 +17,14 @@ nav{
     justify-content: space-evenly;
     position: sticky;
     top: 0;
-    background-color:#504848de;
-    padding-bottom: 20px;
+    background-color:#89facfde;
+    padding-bottom: 10px;
+    z-index: 10;
 }
 nav a{
-    color: wheat;
+    color: #3d3d3b;
     text-decoration: none;
+    margin-top: 10px;
 }
 .home{
     display: flex;
@@ -55,8 +57,10 @@ section{
     padding-top: 30px;
 }
 section p{
-    padding-top: 30px;
+    padding-top: 20px;
+    font-size: large;
 }
+/* best sellers */
 .best-selling{
     padding-top: 20px;
 }
@@ -69,6 +73,7 @@ section p{
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
+    margin: 40px 40px 40px 40px;
 }
 .books{
     height: 350px;
@@ -83,14 +88,14 @@ section p{
     border-radius: 5px;
     filter: opacity(0.9);
 }
-.group-cards h6{
+/* .group-cards h6{
     position: relative;
     top: -120px;
     text-align: center;
     padding: 10px;
     font-weight: bolder;
     font-size: larger;
-}
+} */
 .books button{
     background: #c0511e;
     color: aliceblue;
@@ -101,8 +106,10 @@ section p{
     position: relative;
     top: -120px;
     cursor: pointer;
+    border: navajowhite;
 }
-.books-collection{
+/* books-collection */
+.card-group{
     display: flex;
     margin-top: -20px;
     margin-bottom: 30px;
@@ -127,7 +134,7 @@ section p{
     height: 350px;
 }
 .card .card-body{
-    background-color: #b6d8da;
+    background-color: #9df8d5de;
 }
 /* .card-body .card-title{
     background-color: #373b3e9e;
@@ -151,7 +158,7 @@ section p{
 /* connect */
 .connect{
     margin-top: 50px;
-    background-color: #f0f8ff;
+    background-color:  #89facfde;
     width: 80%;
     display: block;
     margin: 0 auto;
@@ -159,11 +166,11 @@ section p{
 }
 .connect h3{
     padding-bottom: 20px;
-    background-color: #f0f8ff;
+    background-color: #89facfde;
 }
 .connect img{
     width: 40px;
-    background-color: #f0f8ff;
+    background-color: #89facfde;
 }
 footer{
     margin-top: 60px;
@@ -190,7 +197,7 @@ footer img{
     text-align: center;
 }
 .copyright p{
-    color: #828b8b;
+    color: #4ed19fde;
     font-size: medium;
 }
 button :hover{
@@ -340,9 +347,4 @@ font-size:2vw;
 footer div :first-child{
     font-size: 2vw;
 }
-
-
-
-
-
 }
